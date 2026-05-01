@@ -12,7 +12,7 @@ image=pygame.image.load('images/spanch_bob.jpg')
 icon = pygame.image.load('images/music_icon.png')
 pygame.display.set_icon(icon)
 
-stores=['mp3/chadilier.ogg','mp3/sigma.ogg']
+stores=['music/chadilier.ogg','music/sigma.ogg']
 
 
 
@@ -53,3 +53,4 @@ while running:
 
     pygame.display.update()
     clock.tick(60)
+    
